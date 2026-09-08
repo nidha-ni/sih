@@ -1,0 +1,33 @@
+# Python environment & cache
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.env
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Data directories and large files
+*.zip
+*.tar.gz
+*.csv
+*.geojson
+*.shp
+*.shx
+*.dbf
+*.prj
+data/
+firms_extracted/
+
+# Model artifacts
+*.pkl
+*.joblib
+*.model
+*.bin
+
+# IDE settings
+.vscode/
+.idea/
